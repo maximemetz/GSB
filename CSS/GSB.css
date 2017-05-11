@@ -1,0 +1,189 @@
+
+html, body {
+/* Permet d'enlever les bordures tout autour de la page */
+margin : 0;
+padding : 0;
+}
+
+			/* Parametres pour tout les body */
+body {
+font-family : Mongolian Baiti;
+background : #fff;
+color : #555;
+}
+
+			/* Legend du fieldset */
+legend {
+font-size : 200%;
+}
+
+			/* Select */
+select {
+background-image: url(../IMAGE/bleue.jpg);
+background-repeat: no-repeat;
+border: 1px solid #AAA;
+padding: 5px 10px;
+width: auto;
+text-align: center;
+margin-left: 30%;
+}
+
+			/* Pied de page */
+footer {
+height : 75px;
+background : #1C5C9C;
+width: 100%;
+}
+			/* Pied de page fixe */
+footer#fixe {
+height : 75px;
+background : #1C5C9C;
+position:absolute;
+bottom:0px;
+}
+
+
+			/* Lien */
+a {
+color : white;
+text-decoration : underline;
+font-size : 200%;
+}
+
+			/* Fieldset */
+fieldset {
+padding : 20px;
+width : 400px;
+margin : auto;
+}
+
+			/* Fieldset */
+fieldset#select {
+display:block;
+}
+
+label {
+width : 150px;
+float : left;
+}
+
+table {
+background: #3498DB;
+border-radius:3px;
+/*Enleve les bordures predefinies*/
+border-collapse: collapse;
+margin: auto;
+width: 98%;
+color:#000;
+border:none;
+}
+ 
+th {
+background:#AAA;
+font-size:20px;
+/*Determine le niveau de graisse de la police*/
+font-weight: 200;
+padding:25px;
+}
+
+td {
+padding:20px;
+text-align:center;
+font-size:17px;
+border:none;
+}
+
+tr#fonce {
+	background:#1C5C9C;	
+}
+
+			/* Message d'erreur */
+#erreur {
+text-align : center;
+color : red;
+font-size : 20px;
+}
+
+			/* Bande bleue haut de page */
+#bandeau {
+height : 130px;
+padding : 0;
+margin-bottom : 0;
+background : #1C5C9C;
+width : 100%;
+}
+
+			/* Bouton deconnexion */
+#deconnexion {
+text-align : center;
+word-spacing: 50px;
+}
+
+			/* Image : Logo GSB */
+#logo {
+padding : 5px 0px 0px 10px;
+}
+
+			/* Titre des pages*/ 
+#titre {
+color : white;
+font-size: 300%;
+position: absolute;
+margin-left: 40%;
+margin-top: 2.5%;
+}
+
+			/* Bouton menu */
+#menu {
+position: absolute;
+margin-left: 93%;
+margin-top: 20px;
+}
+
+			/* Bouton */
+.button {
+background : #3498db;
+font-family : Mongolian Baiti;
+color : #FFF;
+font-size : 20px;
+padding : 10px 150px 10px 150px;
+cursor : pointer;
+width : 100%;
+margin : auto;
+text-align : center;
+}
+
+			/* Bouton page d'acceuil */
+.grandbouton {
+background : #3498DB;
+font-family : Mongolian Baiti;
+color : #FFF;
+font-size : 20px;
+padding : 20px 160px 20px 160px;
+width : 600px;
+margin : auto;
+display: block;
+cursor : pointer;
+}
+
+			/* Bouton page d'acceuil inactif */
+.grandbouton#inactif {
+background : #555;
+font-family : Mongolian Baiti;
+color : #FFF;
+font-size : 20px;
+padding : 20px 160px 20px 160px;
+width : 600px;
+margin : auto;
+display: block;
+cursor : pointer;
+}
+
+.ecrit {
+font-family : Mongolian Baiti;
+background : #fff;
+color : #555;
+font-size : 150%;
+text-align : center;
+text-decoration : underline;
+}
