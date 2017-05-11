@@ -33,9 +33,7 @@
 			$dbname = "u291192831_si6";
 			$port='3306';
 			break;
-		while(1) {
-			echo "teub" ;
-		}
+
 	    case 10 :
 			//SQL GSB
 			$host = "10.0.242.7";
