@@ -15,7 +15,7 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-	</buildSpec>
+	</buildSpec> 
 	<natures>
 		<nature>org.eclipse.php.core.PHPNature</nature>
 	</natures>

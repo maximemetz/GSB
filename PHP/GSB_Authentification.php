@@ -108,7 +108,6 @@ if (!empty($_GET["nom_de_compte"]) && (!empty($_GET["nom_de_compte"]))){
 if(!empty($Message_D_Erreur))
 	echo $Message_D_Erreur;
 ?>
-
 </div>	
 			<br />
 		
