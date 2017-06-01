@@ -107,9 +107,6 @@ if (!empty($_GET["nom_de_compte"]) && (!empty($_GET["nom_de_compte"]))){
 //renvoie un message d'erreur si non vide
 if(!empty($Message_D_Erreur))
 	echo $Message_D_Erreur;
-	while(1) {
-			echo "teub" ;
-		}
 ?>
 
 </div>	
